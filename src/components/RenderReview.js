@@ -64,7 +64,7 @@ class RenderReview extends React.Component {
         <div>
       <Grid container justifyContent="center" t={2} b={5}>
         <Grid item key={i} xs={11} md={9} lg={6} >
-          <ReviewCard course={course}/> <br />
+          <ReviewCard course={course} /> <br />
         </Grid>
       </Grid>
         </div>

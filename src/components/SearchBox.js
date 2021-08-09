@@ -22,7 +22,6 @@ import ReactSelect from "../search-components/ReactSelect";
 const ENV_API = process.env.REACT_APP_API_URL;
 
 export default class SearchBox extends React.Component {
-    
     constructor(props) {
         super(props)
         this.state = {
