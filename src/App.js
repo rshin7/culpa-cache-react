@@ -18,18 +18,19 @@ import './App.css';
 import NotFound from './components/NotFound';
 import SearchBox from './components/SearchBox';
 import RenderReview from './components/RenderReview';
-import { HashRouter as Router, Switch, Route} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
 
   return (
     <>
     <div className="App">
-    <Router basename='/'>
+    <Router>
+    
         <Switch>
           <Route exact path='/' component={SearchBox} />
           <Route exact path='/review/:id' component={RenderReview}/>
-          <Route path='*' component={NotFound} />
+          <Route exact path='*' component={NotFound} />
         </Switch>
       </Router>
       </div>
