@@ -20,7 +20,6 @@ import { Helmet } from 'react-helmet';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 import ReviewCard from '../components/ReviewCard';
-import GoogleAnalytics from './components/GoogleAnalytics';
 
 const ENV_API = process.env.REACT_APP_API_URL;
 
@@ -49,8 +48,6 @@ class RenderReview extends React.Component {
     this.getReviews(id);
   }
 
-  GoogleAnalytics();
-  
   render() {
   return (
     <div>
@@ -65,7 +62,7 @@ class RenderReview extends React.Component {
 
       {this.state.courses.map((course, i) => 
         <div>
-      <Grid container justify="center" t={2} b={5}>
+      <Grid container justifyContent="center" t={2} b={5}>
         <Grid item key={i} xs={12} md={9} lg={6} >
           <ReviewCard course={course}/> <br />
         </Grid>
