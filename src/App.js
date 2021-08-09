@@ -15,12 +15,12 @@
 
 import './App.css';
 import React, { useEffect } from 'react'
-import ReactGA from 'react-ga';
 import NotFound from './components/NotFound';
 import SearchBox from './components/SearchBox';
 import RenderReview from './components/RenderReview';
+import { BrowserRouter as Router, Switch, Route, useLocation } from "react-router-dom";
+import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history'
-import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_NO)
 const browserHistory = createBrowserHistory()
@@ -28,12 +28,12 @@ browserHistory.listen((location, action) => {
   ReactGA.pageview(location.pathname + location.search)
 })
 
-
 function App() {
+  const location = useLocation();
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }, [])
-  
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
+
   return (
     <>
     

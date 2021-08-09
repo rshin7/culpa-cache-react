@@ -23,9 +23,9 @@ export default function ReviewCard( {course} ) {
     return (
         <div>
             <Card elevation={5} variant="outlined">
-                <CardHeader 
+                <CardHeader key={course.course_name}
                 
-                title = { course.course_name }
+                title = { course.course_name } 
                 subheader= { course.review_date }
                 />
                 <CardContent>
