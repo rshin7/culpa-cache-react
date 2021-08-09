@@ -1,4 +1,4 @@
-# culpa cache React Front End
+# culpa cache Front End (React.js)
 
 Created by: [Richard Shin](https://www.rshin.dev/)
 
@@ -10,6 +10,12 @@ This portion of the project contains the actual front end server where users can
 
 ## Getting Started
 
-1. Set up a local instance of the [API server](https://github.com/rshin7/culpa-cache-api)
-2. Install all dependencies (`npm install`)
+1. Follow instructions in [API readMe](https://github.com/rshin7/culpa-cache-api) to get local API instance up.
+2. Install all dependencies for React App (`npm install`)
 3. Start React App (`npm start`)
+
+## Components
+
+* `SearchBox.js`: Makes a GET request to the API server for `allprofessors` then populates a drop down menu using react-select.
+* `RenderReview.js`: Makes an asynchronous GET request to the API server for `prof/{id}`, getting the ID from URL parameters.
+* `ReviewCard.js`: Functional component containing the styling for the material-ui Card to display reviews.
