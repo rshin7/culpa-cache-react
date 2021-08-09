@@ -56,7 +56,7 @@ class RenderReview extends React.Component {
       {this.state.courses_info.map((data) => 
       <div>
         <Typography variant="h4" align="center" key={data.prof_id}>{data.prof_name}</Typography>
-        <Helmet><title>culpa-cache | {data.prof_name} Reviews</title></Helmet> 
+        <Helmet><title>culpa cache - {data.prof_name} Reviews</title></Helmet> 
       </div>
         )
       }

@@ -59,7 +59,7 @@ export default class SearchBox extends React.Component {
         // console.log(this.state.selectOptions)
         return (
             <div>
-                <Typography variant="h2" align="center"><a href="/" style={{textDecoration: 'none', color: 'black', fontStyle: 'italic'}}>culpa-cache</a></Typography>
+                <Typography variant="h2" align="center"><a href="/" style={{textDecoration: 'none', color: 'black', fontStyle: 'italic'}}>culpa cache</a></Typography>
                     <div style={{maxWidth: '40%', paddingLeft: '30%'}}>
                         <ReactSelect 
                             placeholder = "Search for Professor..."
