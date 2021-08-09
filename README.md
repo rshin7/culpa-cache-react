@@ -18,4 +18,4 @@ This portion of the project contains the actual front end server where users can
 
 * `SearchBox.js`: Makes a GET request to the API server for `allprofessors` then populates a drop down menu using react-select.
 * `RenderReview.js`: Makes an asynchronous GET request to the API server for `prof/{id}`, getting the ID from URL parameters.
-* `ReviewCard.js`: Functional component containing the styling for the material-ui Card to display reviews.
+* `ReviewCard.js`: Functional component containing the styling for the material-ui Card to display reviews. 
