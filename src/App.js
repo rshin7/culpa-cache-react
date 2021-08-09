@@ -18,12 +18,14 @@ import './App.css';
 import NotFound from './components/NotFound';
 import SearchBox from './components/SearchBox';
 import RenderReview from './components/RenderReview';
+import GoogleAnalytics from './components/GoogleAnalytics';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
-
+  GoogleAnalytics();
   return (
     <>
+    
     <div className="App">
     <Router>
     

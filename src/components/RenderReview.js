@@ -20,6 +20,7 @@ import { Helmet } from 'react-helmet';
 import Grid from '@material-ui/core/Grid';
 import { Typography } from '@material-ui/core';
 import ReviewCard from '../components/ReviewCard';
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 const ENV_API = process.env.REACT_APP_API_URL;
 
@@ -48,6 +49,7 @@ class RenderReview extends React.Component {
     this.getReviews(id);
   }
 
+  GoogleAnalytics();
   
   render() {
   return (
