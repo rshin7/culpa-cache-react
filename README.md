@@ -1,4 +1,4 @@
-# culpa-cache React App
+# culpa cache React Front End
 
 Created by: [Richard Shin](https://www.rshin.dev/)
 
@@ -10,6 +10,6 @@ This portion of the project contains the actual front end server where users can
 
 ## Getting Started
 
-0. Scrape Data (or use the ones already scraped) and put them in `api/data`.
-1. Start API server (`npm start` in `api` folder)
-2. Start React App (`npm start` in `server` folder)
+1. Set up a local instance of the [API server](https://github.com/rshin7/culpa-cache-api)
+2. Install all dependencies (`npm install`)
+3. Start React App (`npm start`)

@@ -13,16 +13,20 @@
 // You should have received a copy of the GNU General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-import React from 'react'
+import React, { useState } from 'react'
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-export default function ReviewCard( {course, i } ) {
+export default function ReviewCard( {course} ) {
+    const [state, setState] = useState({raised:false})
     return (
         <div>
-            <Card elevation={5} variant="outlined">
+            <Card onMouseOver={() => setState({raised: true})}
+                  onMouseOut={() => setState({raised:false})}
+                  raised={state.raised}
+            >
                 <CardHeader 
                 
                 title = { course.course_name } 

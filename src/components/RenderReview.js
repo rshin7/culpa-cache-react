@@ -63,7 +63,7 @@ class RenderReview extends React.Component {
       {this.state.courses.map((course, i) => 
         <div>
       <Grid container justifyContent="center" t={2} b={5}>
-        <Grid item key={i} xs={12} md={9} lg={6} >
+        <Grid item key={i} xs={11} md={9} lg={6} >
           <ReviewCard course={course}/> <br />
         </Grid>
       </Grid>
