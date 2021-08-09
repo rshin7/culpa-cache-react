@@ -19,17 +19,18 @@ import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 
-export default function ReviewCard( {course} ) {
+export default function ReviewCard( {course, i } ) {
     return (
         <div>
             <Card elevation={5} variant="outlined">
-                <CardHeader key={course.course_name}
+                <CardHeader 
                 
                 title = { course.course_name } 
                 subheader= { course.review_date }
+                
                 />
                 <CardContent>
-                    <Typography variant='body2' >
+                    <Typography variant='body2'>
                         {course.review_content}
                     </Typography>
                 </CardContent>
