@@ -14,7 +14,7 @@ This portion of the project contains the actual front end server where users can
 2. Install all dependencies for React App (`npm install`)
 3. Create an `.env` file with the following:
 ```
-REACT_APP_API_URL=https://localhost:3001
+REACT_APP_API_URL=https://localhost:3001 
 REACT_APP_GA_TRACKING_NO=
 ```
 4. Start React App (`npm start`)
