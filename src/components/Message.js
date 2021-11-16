@@ -36,7 +36,7 @@ export default function Message() {
             I never intended this website to be a CULPA 2.0; that is precisely why I did not bother adding the ability to add new reviews (and for the technical folks: why data is stored in JSON format). 
             <br /><br />
             It <a href="https://www.reddit.com/r/columbia/comments/qt6v19/official_culpa_relaunch_at_wwwculpaapp/" rel="noreferrer" target="_blank">seems like</a> they're rebooting CULPA which is great news.
-            That also means my website has served its intended purpose. So - I've agreed to shut down my website. 
+            That also means my website has served its intended purpose, that is, to serve backups of CULPA reviews while CULPA was down. Now that CULPA is back online, I see no reason to have duplicate sites serving the same reviews, so, I've agreed to shut down my website.
             <br /><br />
             I've open sourced my code: <a href="https://github.com/rshin7/culpa-cache-scraper" rel="noreferrer" target="_blank">the scraper</a> (nothing sophisticated tbh 😅), <a href="https://github.com/rshin7/culpa-cache-api" rel="noreferrer" target="_blank">Express.js API server</a>, and <a href="https://github.com/rshin7/culpa-cache-react" rel="noreferrer" target="_blank">React front-end</a>. You can also read a short write up I wrote on this project <a href="https://www.rshin.dev/projects/#culpa-cache">here</a>.
 
