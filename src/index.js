@@ -17,12 +17,14 @@ import './index.css';
 import App from './App';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Message from './components/Message';
 import Footer from './components/Footer';
 import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.render(
   <BrowserRouter>
     <App />
+    <Message />
     <Footer />
   </BrowserRouter>,
   document.getElementById('root')
