@@ -23,8 +23,8 @@ export default function Message() {
         <div style={{ textAlign: 'center', margin: '0 auto', padding: '1% 1% 1% 1%', maxWidth: '700px', wordWrap: 'break-word', borderStyle: 'dotted' }}>
         <div style={{ textAlign: 'right'}}>November 15<sup>th</sup>, 2021</div>
             <div style={{ textAlign: 'left'}}>Hey all,</div> <br /> I've recently been contacted by the one of the original administrators of CULPA. <br /><br />
-            Long story short, they weren't too happy with this website at its current state, their chief complaints being: the name of the site (includes the word CULPA),
-            and using reviews that were scraped from CULPA.
+            Long story short, it seems like one of the original admins <a href="https://www.reddit.com/r/columbia/comments/qt6v19/official_culpa_relaunch_at_wwwculpaapp" rel="noreferrer" target="_blank">is rebooting CULPA</a>, which is great news.
+            That also means my website has served its intended purpose, that is, to serve backups of CULPA reviews while CULPA was down. Now that CULPA is back online, I see no reason to have duplicate sites serving the same reviews, so, I've agreed to shut down my website.
             <br /> <br />
             I created this website during my free time over this past summer because CULPA as we know it was down, Fall 2021 registrations were coming up, and like many of you right now,
             I wanted to take courses with highly rated professors. I figured I wasn't the only one who wanted to access these old reviews and one night while I was reading through Columbia Confessions, I saw this:
@@ -34,9 +34,6 @@ export default function Message() {
             That gave me the motivation to start this hobby project and share it with you all before the Fall semester began.
             <br /> <br />
             I never intended this website to be a CULPA 2.0; that is precisely why I did not bother adding the ability to add new reviews (and for the technical folks: why data is stored in JSON format). 
-            <br /><br />
-            It <a href="https://www.reddit.com/r/columbia/comments/qt6v19/official_culpa_relaunch_at_wwwculpaapp/" rel="noreferrer" target="_blank">seems like</a> they're rebooting CULPA which is great news.
-            That also means my website has served its intended purpose, that is, to serve backups of CULPA reviews while CULPA was down. Now that CULPA is back online, I see no reason to have duplicate sites serving the same reviews, so, I've agreed to shut down my website.
             <br /><br />
             I've open sourced my code: <a href="https://github.com/rshin7/culpa-cache-scraper" rel="noreferrer" target="_blank">the scraper</a> (nothing sophisticated tbh 😅), <a href="https://github.com/rshin7/culpa-cache-api" rel="noreferrer" target="_blank">Express.js API server</a>, and <a href="https://github.com/rshin7/culpa-cache-react" rel="noreferrer" target="_blank">React front-end</a>. You can also read a short write up I wrote on this project <a href="https://www.rshin.dev/projects/#culpa-cache">here</a>.
 
