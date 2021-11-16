@@ -35,7 +35,7 @@ export default function Message() {
             <br /> <br />
             I never intended this website to be a CULPA 2.0; that is precisely why I did not bother adding the ability to add new reviews (and for the technical folks: why data is stored in JSON format). 
             <br /><br />
-            I've open sourced my code: <a href="https://github.com/rshin7/culpa-cache-scraper" rel="noreferrer" target="_blank">the scraper</a> (nothing sophisticated tbh 😅), <a href="https://github.com/rshin7/culpa-cache-api" rel="noreferrer" target="_blank">Express.js API server</a>, and <a href="https://github.com/rshin7/culpa-cache-react" rel="noreferrer" target="_blank">React front-end</a>. You can also read a short write up I wrote on this project <a href="https://www.rshin.dev/projects/#culpa-cache">here</a>.
+            If you're interested, I've open sourced my code since day 1: <a href="https://github.com/rshin7/culpa-cache-scraper" rel="noreferrer" target="_blank">the scraper</a> (nothing sophisticated tbh 😅), <a href="https://github.com/rshin7/culpa-cache-api" rel="noreferrer" target="_blank">Express.js API server</a>, and <a href="https://github.com/rshin7/culpa-cache-react" rel="noreferrer" target="_blank">React front-end</a>. You can also read a short write up I wrote on this project <a href="https://www.rshin.dev/projects/#culpa-cache">here</a>.
 
             <br /><br />
 
