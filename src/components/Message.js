@@ -45,10 +45,10 @@ export default function Message() {
             Here's a link to the <a href="https://www.culpa.app/" rel="noreferrer" target="_blank">updated CULPA</a>, which seems to have some of the more up-to-date reviews I was missing. 
             I suggest you start using the new CULPA as I'll be pulling the plug on this site in a few days.
             <br /><br />
-            Thanks for visiting, and feel free to connect on <a href="https://www.linkedin.com/in/rshin7/"  rel="noreferrer" target="_blank">LinkedIn</a>. <br /> Hope you get the classes you want for Spring! <br />
+            Thanks for visiting - hope you get the classes you want for Spring! <br />
             <br />
             <div style={{textAlign:'right'}}>
-                - Richard
+                - <a href="https://www.linkedin.com/in/rshin7/"  rel="noreferrer" target="_blank">Richard</a> <br />
             </div>
         </div></>
     )
