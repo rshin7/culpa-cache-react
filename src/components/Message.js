@@ -23,7 +23,7 @@ export default function Message() {
         <div style={{ textAlign: 'center', margin: '0 auto', padding: '1% 1% 1% 1%', maxWidth: '700px', wordWrap: 'break-word', borderStyle: 'dotted' }}>
         <div style={{ textAlign: 'right'}}>November 15<sup>th</sup>, 2021</div>
             <div style={{ textAlign: 'left'}}>Hey all,</div> <br /> I've recently been contacted by the one of the original administrators of CULPA. <br /><br />
-            Long story short, it seems like one of the original admins <a href="https://www.reddit.com/r/columbia/comments/qt6v19/official_culpa_relaunch_at_wwwculpaapp" rel="noreferrer" target="_blank">are rebooting CULPA</a>, which is great news.
+            Long story short, it seems like the original admins <a href="https://www.reddit.com/r/columbia/comments/qt6v19/official_culpa_relaunch_at_wwwculpaapp" rel="noreferrer" target="_blank">are rebooting CULPA</a>, which is great news.
             That also means my website has served its intended purpose, that is, to serve backups of CULPA reviews while CULPA was down. Now that CULPA is back online, I see no reason to have duplicate sites serving the same reviews, so, I've agreed to shut down my website.
             <br /> <br />
             I created this website during my free time over this past summer because CULPA as we know it was down, Fall 2021 registrations were coming up, and like many of you right now,
