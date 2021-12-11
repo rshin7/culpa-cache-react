@@ -24,7 +24,7 @@ import { BrowserRouter } from 'react-router-dom'
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <Message />
+    {/* <Message /> */}
     <Footer />
   </BrowserRouter>,
   document.getElementById('root')
